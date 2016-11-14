@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+    <text>本局抽取的数字为</text>
+    <text class="main-text">{{userData}}</text>
+    <button type="primary"  bindtap="primary">  WIN </button>
+    <button type="primary"  bindtap="primary">  LOSE </button>
+</view>
